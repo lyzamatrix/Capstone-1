@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/*Navbar*/
+/* Navbar */
 .navbar {
   background-color: #2e321a;
 }
@@ -39,9 +39,7 @@
  }
 
 
-
-
-/*Hr*/
+/* Horizontal Rule */
 .hr-global {
   width: 100px;
   text-align: center;
@@ -49,19 +47,19 @@
   margin: auto;
 }
 
-/*Footer*/
+/* Footer */
 #footer {
   background-color: #2e321a;
 }
 
-/*Jumbotron*/
+/* Jumbotron */
 .jumbotron {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
   padding-top: 150px;
-  height: 80vh;
+  padding-bottom: 150px;
   padding-right: 10vw;
   padding-left: 10vw;
   border-radius: 0;
@@ -69,7 +67,7 @@
 }
 
 
-/*Image*/
+/* Image */
 .lyza-image {
   border-radius: 5px;
   padding-left: 5vw;
@@ -106,7 +104,7 @@ p{
   padding-left: 10vw;
 }
 
-/*Button*/
+/* Button */
 .cta-button {
   background-color: #c5492d;
   font-weight: 500;
@@ -142,10 +140,6 @@ p{
   padding: 5px 25px;
 }
 
-.modal-title {
-  color: #c5492d;
-}
-
 .submit-button {
   background-color: #c5492d;
   font-weight: 500;
@@ -166,7 +160,8 @@ p{
   border-radius: 25px;
   padding: 5px 25px;
 }
-/*Forms*/
+
+/* Forms */
 .form-control {
   border: 1px solid #c5492d;
   border-radius: 25px;
@@ -178,17 +173,22 @@ p{
   border-shadow: none!important;
 }
 
+.form-group {
+    margin-bottom: none;
+}
+
+/* Modal */
 .message-box {
   height: 10vh;
   margin-bottom: 30px;
 }
 
-.form-group {
-    margin-bottom: none;
+.modal-title {
+  color: #c5492d;
 }
 
 
-<!-- Card -->
+/* Card */
 card {
   width: 18rem;
 }
@@ -197,6 +197,8 @@ card {
   font-weight: 700;
   color: #c5492d;
 }
+
+/* Icons */
 .icons {
   display: flex;
   justify-content: center;
@@ -208,4 +210,10 @@ card {
   margin-right: 10px;
   font-size: 36px;
   color: #fff;
+}
+
+.icons i:hover {
+  margin-right: 10px;
+  font-size: 36px;
+  color: #b3b02e;
 }
